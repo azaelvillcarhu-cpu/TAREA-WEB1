@@ -1,0 +1,170 @@
+body{
+    background-image: url(../IMG/Fondo_Azul_Degrade.webp);
+    background-size: cover;
+}
+.padre{
+    padding: 10px;
+    width: 97.5%;
+    border-style:double;
+    border-width: 10px;
+    border-radius: 30px;
+}
+.logo{
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+}
+a{
+    text-decoration:none;
+    color: rgb(0, 4, 255);
+}
+a:hover{
+    color: rgb(71, 151, 205);
+}
+.titulo{
+    text-align: left;
+    padding-right: 20px;
+    font-size: 20px;
+}
+header{
+    background-color: rgba(6, 36, 61, 0.325);
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 1px;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    width: 75%;
+}
+nav{
+    background-color: rgba(69, 168, 207, 0.386);
+    width: 99%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: comic sans ms, cursive, sans-serif;
+}
+.caja{
+    border-radius: 10px;
+    margin: 12.5px auto;
+    padding: 10px;
+    width: 105%;
+    text-align: center;
+    border: 5px dashed rgba(5, 12, 16, 0.075);
+}
+section{
+    background-color: rgba(112, 72, 193, 0.413);
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 15px;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    width: 78%;
+}
+footer{
+    background-color: rgba(6, 36, 61, 0.325);
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 1px;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    width: 75%;
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 30px;            
+}
+
+.texto {
+    flex: 1;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.imagen img {
+    width: 240px;
+    height: 240px;
+    border-radius: 46.5%;
+    object-fit: cover;
+}
+.texto1{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+}
+.estilo1 {
+    background: linear-gradient(to right, #1e1e2f, #3a3a6a);
+    color: #fff;
+    padding: 30px;
+    border-left: 8px solid #044155a5;
+    margin: 30px 80px;
+    opacity: 1;
+    font-size:20px ;
+}
+.video {
+    display: flex;
+    justify-content: center;
+}
+.impacto {
+    margin: 40px center;
+    padding: 20px;
+    background: linear-gradient(135deg, #5f9ea0, #6a5acd);
+    border-radius: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+.impacto h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+td {
+    color: white;
+}
+tr:hover {
+    background-color: rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.estilo {
+    margin: 40px center;
+    padding: 20px;
+    font-size: 19px;
+}
+.estilo h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px) scale(1.05);
+}
